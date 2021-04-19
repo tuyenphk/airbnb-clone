@@ -1,12 +1,14 @@
 import React from 'react';
 import './App.css';
 import Home from './pages/Home/Home'
+import Header from './components/Header/Header'
 
 function App() {
   return (
     <div className="app">
-      Let's build AIRBNB clone!
       {/* Home */}
+      <Header />
+      <Home />
           {/* Header */}
 
           {/* Banner */}

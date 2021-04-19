@@ -1,0 +1,31 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    /* sticky to still remain the header when scrolling */
+    position: sticky; 
+    background-color: white;
+    z-index: 100;
+    width: 100%;
+    top: 0;
+}
+
+.header-icon {
+    object-fit: contain;
+    height: 100px;
+    margin-left: 20px;
+}
+
+.header-center {
+    display: flex;
+    align-items: center;
+}
+
+.header-center > input {
+    width: 400px;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
